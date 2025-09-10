@@ -1,0 +1,19 @@
+/* SmartBus App Styles */
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure mobile spacing for sticky button */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 80px; /* Space for sticky call button */
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
